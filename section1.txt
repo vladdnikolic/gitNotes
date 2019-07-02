@@ -1,0 +1,19 @@
+git commit
+commit staged snapshot
+commits are basically file saves in git
+they save every file in the repository
+all commits are logged chronologically
+
+Git log
+shows commit history for repository
+
+git diff <id1> <id2>
+shows the differences between the files
+
+git clone <url> 
+copies repository from url to local machine
+
+git checkout <id>
+snags an old commit so you can look at it
+enters detached head state
+
