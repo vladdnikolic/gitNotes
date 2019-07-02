@@ -1,0 +1,23 @@
+git commit -m "message"
+creates a commit of everything in the staging area with message
+
+git add <filename>
+adds file to the staging area
+
+git branch
+shows branches
+
+git branch <name>
+creates branch with given name
+
+branches are good for adding features without shoving your main file down the stack
+ex. easy mode in asteroids
+
+git branch -d <name>
+deletes branch label
+
+git merge <coins> <master>
+merges changes from branch1 into branch2
+
+git show <commit>
+shows differences between commit and its parent
