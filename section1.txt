@@ -10,6 +10,15 @@ shows commit history for repository
 git diff <id1> <id2>
 shows the differences between the files
 
+git diff
+shows differences between staging area and workspace
+
+git diff --staged
+shows difference between staging area and most recent commit
+
+git diff HEAD
+shows difference between working area and most recent commit
+
 git clone <url> 
 copies repository from url to local machine
 
