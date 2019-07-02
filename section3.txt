@@ -8,7 +8,10 @@ if a repository only has one remote the name is typically "origin"
 git push <remote> <branch>
 push all commits accessible from branch to remote
 
+git fetch <remote> <branch>
+grabs the new commits from github and appends them to the locally stored copy of the github branch "origin/master"
+
 git pull <remote> <branch>
-works exactly like push, just in the opposite direction
+fetches then merges all new commits from github
 
 git config --global --add remote.origin.proxy ""

@@ -18,6 +18,7 @@ deletes branch label
 
 git merge <coins> <master>
 merges changes from branch1 into branch2
+if there's an error, fix it, add the files to the staging area then commit them.
 
 git show <commit>
 shows differences between commit and its parent
