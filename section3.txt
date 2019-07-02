@@ -1,0 +1,9 @@
+git remote
+show all remotes for a repository
+
+git remote <name> <url>
+add a remote of name and url
+if a repository only has one remote the name is typically "origin"
+
+git push <remote> <branch>
+push all commits accessible from branch to remote
