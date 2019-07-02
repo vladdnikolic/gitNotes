@@ -7,3 +7,8 @@ if a repository only has one remote the name is typically "origin"
 
 git push <remote> <branch>
 push all commits accessible from branch to remote
+
+git pull <remote> <branch>
+works exactly like push, just in the opposite direction
+
+git config --global --add remote.origin.proxy ""
